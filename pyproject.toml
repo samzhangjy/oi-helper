@@ -4,7 +4,7 @@ build-baskend = "setuptools.build_meta"
 
 [project]
 name = "oi-helper"
-version = "0.0.3"
+version = "0.1.1"
 description = "Yet another helper for Olympiad in Informatics."
 readme = "README.md"
 authors = [{ name = "Sam Zhang", email = "samzhangjy@outlook.com" }]
@@ -32,7 +32,7 @@ Homepage = "https://github.com/samzhangjy/oi-helper"
 oi-helper = "oihelper.__main__:cli"
 
 [tool.bumpver]
-current_version = "0.1.0"
+current_version = "0.1.1"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true
