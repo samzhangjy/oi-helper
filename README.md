@@ -4,13 +4,11 @@ Yet another helper for **Olympiad in Informatics**!
 
 ## Usage
 
-Clone this repo and run the following command:
+Download using `pip` (make sure you have Python 3.10+ installed):
 
 ```bash
-$ python oi-helper.py
+$ pip install oihelper
 ```
-
-Or you can download the latest stable release in the right panel.
 
 ### Problem parsing
 
