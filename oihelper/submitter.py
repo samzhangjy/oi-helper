@@ -108,14 +108,14 @@ class Submitter(object):
                 "id": idx,
             }
 
-            for testcase_id in subtask["testCases"]:
-                testcase = subtask["testCases"][testcase_id]
+            for testcase_id in range(len(subtask["testCases"])):
+                testcase = subtask["testCases"][str(testcase_id)]
                 cur_testcase: Testcase = {
                     "time_cost": testcase["time"],
                     "memory_cost": testcase["memory"],
                     "details": None,
                     "score": testcase["score"],
-                    "id": testcase_id,
+                    "id": testcase_id + 1,
                     "status": self._get_status_type(testcase["status"]),
                 }
                 match testcase["status"]:

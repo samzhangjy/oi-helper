@@ -1,8 +1,10 @@
 .vscode/
 **/__pycache__
 venv/
+/*.cpp
 
 # build
 dist/
 build/
 /*.spec
+/oi-helper.dist
